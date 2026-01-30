@@ -10,7 +10,7 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Good visualization: https://datavizproject.com/data-type/lollipop-chart/
+      Good visualization: https://datavizproject.com/wp-content/uploads/examples/Sk%C3%A6rmbillede-2017-09-29-kl.-13.55.44.png
 
       This is a lollipop chart that shows Government retirement ages, both current and long-term (where applicable), in a certain selection of countries. The data is very simple here, and I think the plot matches it nicely: Its aesthetic elements (e.g., clean, simple, good proximity between points) makes it pleasing to look at, it portrays the data accurately and honestly and is thus substantive, and the message is simple and straightforward. While lollipop plots aren’t a very common chart type, they still follow a similar style to typical, familiar bar charts, which should reduce cognitive load. There are few unique visual elements in this plot such that it’s easy to understand the comparison of current and long-term values. One detail I appreciate is that the current value is a darker hue of the same colour used for long-term, and the lighter hue is thus easy to compare against the current values while not being the central focus of this plot. The alphabetized y-axis is very helpful for readers to look for a given country’s values within each retirement age. Finally, the figure note is concise and relevant.
       
@@ -22,6 +22,7 @@
       ```
     - How could this data visualization have been improved?  
       ```
+      The good visualization can be improved in two ways. First, to make this readable at first glance, it would be helpful to have some information in the figure note about why some points have a long-term age (and what that means, exactly). Second, I would have made the dotted lanes preceding the long-term points a bit less obvious - maybe a lower alpha value for opacity - but I think this is purely aesthetic preference and doesn't detract from readability.
 
       The bad visualization can be improved in a few ways. First, the independent variables need to be clarified. Are we looking at two IVs or one? If it’s about two IVs, we need to be able to see the full data set - it’s generally not good practice to make a plot which is missing a substantial amount of data. I suggest this plot be broken out into a two-dimensional stacked or grouped bar plot. For example, each brand will have a value for each item time, and this should be explicitly stated on the plot, given the variable number of item types (i.e., comparing the size of the plots in a stacked barplot can be tricky). The y-axis should be clear and have units included. All of these more explicit points would reduce cognitive load and allow the reader to gather the gist of the data at first glance.
       
